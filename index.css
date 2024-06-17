@@ -1,0 +1,41 @@
+#add-btn {
+  background-color: black;
+  color: aliceblue;
+}
+
+.container {
+  margin-bottom: 10px;
+}
+
+.container-products {
+  display: flex;
+}
+.container-products .product {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.container-products .product-name {
+  margin-bottom: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.container-products .product-desc {
+  margin-bottom: 3px;
+}
+.container-products .product img {
+  margin-bottom: 5px;
+}
+.container-products .product .delete-btn {
+  background-color: red;
+  color: aliceblue;
+}
+.container-products .product:last-child {
+  margin-right: 0px;
+}
+
+.container-product-details {
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}/*# sourceMappingURL=index.css.map */
